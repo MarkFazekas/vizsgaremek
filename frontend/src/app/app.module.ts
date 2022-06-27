@@ -17,6 +17,10 @@ import { SumPipe } from './pipe/sum.pipe';
 import { FilterPipe } from './pipe/filter.pipe';
 import { FilterAllPipe } from './pipe/filter-all.pipe';
 import { LimitPipe } from './pipe/limit.pipe';
+import { ForbiddenComponent } from './page/forbidden/forbidden.component';
+import { DataTableComponent } from './common/data-table/data-table.component';
+import { MPipePipe } from './pipe/m-pipe.pipe';
+import { UserComponent } from './page/user/user.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,11 @@ import { LimitPipe } from './pipe/limit.pipe';
     SumPipe,
     FilterPipe,
     FilterAllPipe,
-    LimitPipe
+    LimitPipe,
+    ForbiddenComponent,
+    DataTableComponent,
+    MPipePipe,
+    UserComponent
   ],
   imports: [
     FormsModule,
@@ -43,9 +51,6 @@ import { LimitPipe } from './pipe/limit.pipe';
     {
       provide: HTTP_INTERCEPTORS,
       useClass: JwtInterceptor,
-      deps: [
-        AuthService,
-      ],
       multi: true,
     },
   ],

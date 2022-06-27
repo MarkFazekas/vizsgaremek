@@ -7,24 +7,36 @@ export interface IMenuItem {
   icon?: string;
 }
 
+export interface ITableColumn {
+  title: string;
+  key: string;
+  hidden?: boolean;
+  pipes?: any[];
+  pipeArgs?: any[][];
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class ConfigService {
 
   sidebarMenu: IMenuItem[] = [
-    {link: '/', title: 'Dashboard', icon: 'home'},
-    {link: '/product', title: 'Products', icon: 'archive'},
-    {link: '/order', title: 'Orders', icon: 'edit2'},
+    {link: '/', title: 'Dashboard'},
+    {link: '/users', title: 'Users'},
+    {link: '/trip-reasons', title: 'Trip Reasons'},
+    {link: '/partners', title: 'Partners'},
+    {link: '/vehicles', title: 'Vehicles'},
+    {link: '/destinations', title: 'Destinations',},
   ];
-  //
-  // productTableColumns: INgxTableColumn[] = [
-  //   {key: '_id', title: '#'},
-  //   {key: 'name', title: 'Name'},
-  //   {key: 'description', title: 'Desc.'},
-  //   {key: 'price', title: 'Price'},
-  //   {key: 'active', title: 'Active'},
-  // ];
+
+  userColumns: ITableColumn[] = [
+    {key: "_id", title: "#"},
+    {key: "first_name", title: "First Name"},
+    {key: "last_name", title: "Last Name"},
+    {key: "email", title: "Email"},
+    {key: "password", title: "Password"},
+    {key: "role", title: "Role"},
+  ];
 
   constructor() { }
 }

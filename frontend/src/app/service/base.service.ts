@@ -36,8 +36,8 @@ export class BaseService<T extends {_id?: string | number, [key: string]: any}> 
     );
   }
 
-  delete(id: number): Observable<T> {
-    return this.http.delete<T>(`${this.apiUrl}${this.entityName}/${id}`);
+  delete(entity: T): Observable<T> {
+    return this.http.delete<T>(`${this.apiUrl}${this.entityName}/${entity._id}`);
   }
 
   getNumberOfValue(property: string, value: string | boolean): Observable<number> {
