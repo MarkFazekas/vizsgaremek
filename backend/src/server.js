@@ -20,8 +20,11 @@ const swaggerDocument = YAML.load('./docs/swagger.yaml');
 
 const {host} = config.get('database');
 mongoose.connect(host, {useNewUrlParser: true, useUnifiedTopology: true})
-    .then(() => {
-        require('./seed/seeder');
+    .then(async () => {
+        const create_mock_data = config.get('create_mock_data');
+        if (create_mock_data) {
+            await require('./seed/seeder')();
+        }
         logger.info('MongoDB connection has been established successfully.');
     })
     .catch(err => {

@@ -1,5 +1,6 @@
 {
-    "database": {
-        "host": "mongodb+srv://dbUser:YUHiI3eNBVukesvH@fullstackapivizsgaremek.ukfzl.mongodb.net/prod?retryWrites=true&w=majority"
-    }
+  "create_mock_data": true,
+  "database": {
+    "host": "mongodb+srv://dbUser:YUHiI3eNBVukesvH@fullstackapivizsgaremek.ukfzl.mongodb.net/prod?retryWrites=true&w=majority"
+  }
 }
