@@ -1,15 +1,13 @@
-<div class="jumbotron-holder p-5">
-  <div class="row pb-5">
-    <div class="col-8 offset-2">
-      <div class="mt-5">
-        <h1 class="h2 text-center">User Details</h1>
-      </div>
-      <app-dynamic-form
-        *ngIf="showForm"
-        [fieldList]="fields"
-        (submitted)="onSave($event)"
-      ></app-dynamic-form>
-
+<div class="row pb-5">
+  <div class="col-8 offset-2">
+    <div class="mt-5">
+      <h1 class="h2 text-center">User Details</h1>
     </div>
+    <app-dynamic-form
+      *ngIf="showForm"
+      [fieldList]="fields"
+      (submitted)="onSave($event)"
+    ></app-dynamic-form>
+
   </div>
 </div>
