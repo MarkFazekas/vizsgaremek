@@ -1,7 +1,7 @@
 const express = require('express');
 const createError = require('http-errors');
 
-const Model = require('../../models/partner.model');
+const Model = require('../../models/trip_reason.model');
 const service = require('./service');
 
 exports.create = (req, res, next) => {

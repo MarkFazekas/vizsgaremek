@@ -1,1 +1,13 @@
-<p>trip-reason-editor works!</p>
+<div class="row pb-5">
+  <div class="col-8 offset-2">
+    <div class="mt-5">
+      <h1 class="h2 text-center">Trip Reason Details</h1>
+    </div>
+    <app-dynamic-form
+      *ngIf="showForm"
+      [fieldList]="fields"
+      (submitted)="onSave($event)"
+    ></app-dynamic-form>
+
+  </div>
+</div>

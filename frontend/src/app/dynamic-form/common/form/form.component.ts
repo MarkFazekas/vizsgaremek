@@ -1,7 +1,7 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { FormGroup } from '@angular/forms';
-import { FieldBase } from '../../model/field-base';
-import { FormGeneratorService } from '../../service/form-generator.service';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {FormGroup} from '@angular/forms';
+import {FieldBase} from '../../model/field-base';
+import {FormGeneratorService} from '../../service/form-generator.service';
 
 @Component({
   selector: 'app-dynamic-form',
@@ -16,7 +16,8 @@ export class FormComponent implements OnInit {
 
   constructor(
     private generator: FormGeneratorService,
-  ) { }
+  ) {
+  }
 
   ngOnInit(): void {
     this.formGroup = this.generator.toFormGroup(this.fieldList);
