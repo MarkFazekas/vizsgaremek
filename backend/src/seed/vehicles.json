@@ -1,0 +1,602 @@
+[
+  {
+    "plate_number": "LGG-873",
+    "manufacturer": "Mercedes-Benz",
+    "model": "G-Class",
+    "production_year": 2009
+  },
+  {
+    "plate_number": "XKV-065",
+    "manufacturer": "Chrysler",
+    "model": "Sebring",
+    "production_year": 1996
+  },
+  {
+    "plate_number": "MGH-756",
+    "manufacturer": "Chevrolet",
+    "model": "Corvette",
+    "production_year": 1985
+  },
+  {
+    "plate_number": "TFS-002",
+    "manufacturer": "Volkswagen",
+    "model": "GTI",
+    "production_year": 2011
+  },
+  {
+    "plate_number": "VVT-414",
+    "manufacturer": "Suzuki",
+    "model": "Daewoo Lacetti",
+    "production_year": 2007
+  },
+  {
+    "plate_number": "JUX-250",
+    "manufacturer": "Geo",
+    "model": "Metro",
+    "production_year": 1996
+  },
+  {
+    "plate_number": "YCT-888",
+    "manufacturer": "BMW",
+    "model": "X3",
+    "production_year": 2007
+  },
+  {
+    "plate_number": "FGG-514",
+    "manufacturer": "Audi",
+    "model": "A5",
+    "production_year": 2008
+  },
+  {
+    "plate_number": "OGG-960",
+    "manufacturer": "Chevrolet",
+    "model": "Avalanche 1500",
+    "production_year": 2004
+  },
+  {
+    "plate_number": "RDE-727",
+    "manufacturer": "Dodge",
+    "model": "Sprinter",
+    "production_year": 2006
+  },
+  {
+    "plate_number": "UWA-614",
+    "manufacturer": "Volkswagen",
+    "model": "Passat",
+    "production_year": 2012
+  },
+  {
+    "plate_number": "IRC-725",
+    "manufacturer": "Chrysler",
+    "model": "LeBaron",
+    "production_year": 1992
+  },
+  {
+    "plate_number": "KXO-412",
+    "manufacturer": "Mazda",
+    "model": "RX-7",
+    "production_year": 1984
+  },
+  {
+    "plate_number": "FUY-906",
+    "manufacturer": "Dodge",
+    "model": "Challenger",
+    "production_year": 2008
+  },
+  {
+    "plate_number": "CQA-678",
+    "manufacturer": "Audi",
+    "model": "S4",
+    "production_year": 2012
+  },
+  {
+    "plate_number": "JPT-219",
+    "manufacturer": "Hyundai",
+    "model": "Accent",
+    "production_year": 1998
+  },
+  {
+    "plate_number": "IBM-710",
+    "manufacturer": "BMW",
+    "model": "X5 M",
+    "production_year": 2010
+  },
+  {
+    "plate_number": "WSW-126",
+    "manufacturer": "Lincoln",
+    "model": "Town Car",
+    "production_year": 1998
+  },
+  {
+    "plate_number": "KNW-818",
+    "manufacturer": "Nissan",
+    "model": "300ZX",
+    "production_year": 1995
+  },
+  {
+    "plate_number": "QJH-744",
+    "manufacturer": "Infiniti",
+    "model": "G37",
+    "production_year": 2011
+  },
+  {
+    "plate_number": "NQE-507",
+    "manufacturer": "Chevrolet",
+    "model": "Silverado",
+    "production_year": 2001
+  },
+  {
+    "plate_number": "SEP-142",
+    "manufacturer": "Chevrolet",
+    "model": "Corvette",
+    "production_year": 2004
+  },
+  {
+    "plate_number": "XJZ-878",
+    "manufacturer": "Buick",
+    "model": "Park Avenue",
+    "production_year": 1993
+  },
+  {
+    "plate_number": "NHX-178",
+    "manufacturer": "Dodge",
+    "model": "Dakota Club",
+    "production_year": 2007
+  },
+  {
+    "plate_number": "GPD-913",
+    "manufacturer": "Subaru",
+    "model": "Forester",
+    "production_year": 2005
+  },
+  {
+    "plate_number": "OTF-092",
+    "manufacturer": "Toyota",
+    "model": "Land Cruiser",
+    "production_year": 1995
+  },
+  {
+    "plate_number": "VXX-230",
+    "manufacturer": "Volvo",
+    "model": "XC60",
+    "production_year": 2009
+  },
+  {
+    "plate_number": "ROF-438",
+    "manufacturer": "Ford",
+    "model": "Taurus",
+    "production_year": 1990
+  },
+  {
+    "plate_number": "HZA-271",
+    "manufacturer": "Subaru",
+    "model": "Impreza",
+    "production_year": 1995
+  },
+  {
+    "plate_number": "DRV-686",
+    "manufacturer": "Oldsmobile",
+    "model": "Intrigue",
+    "production_year": 2000
+  },
+  {
+    "plate_number": "NRA-578",
+    "manufacturer": "Porsche",
+    "model": "928",
+    "production_year": 1991
+  },
+  {
+    "plate_number": "GBE-607",
+    "manufacturer": "Mercedes-Benz",
+    "model": "CL-Class",
+    "production_year": 2008
+  },
+  {
+    "plate_number": "ION-225",
+    "manufacturer": "Toyota",
+    "model": "4Runner",
+    "production_year": 2003
+  },
+  {
+    "plate_number": "ULT-023",
+    "manufacturer": "Dodge",
+    "model": "Avenger",
+    "production_year": 2011
+  },
+  {
+    "plate_number": "KOW-007",
+    "manufacturer": "GMC",
+    "model": "Sonoma Club Coupe",
+    "production_year": 1994
+  },
+  {
+    "plate_number": "OPL-190",
+    "manufacturer": "Ford",
+    "model": "Flex",
+    "production_year": 2011
+  },
+  {
+    "plate_number": "HDX-864",
+    "manufacturer": "Mercury",
+    "model": "Villager",
+    "production_year": 1996
+  },
+  {
+    "plate_number": "QXV-608",
+    "manufacturer": "Audi",
+    "model": "A6",
+    "production_year": 2000
+  },
+  {
+    "plate_number": "YHI-133",
+    "manufacturer": "Lincoln",
+    "model": "Mark VIII",
+    "production_year": 1994
+  },
+  {
+    "plate_number": "MYG-059",
+    "manufacturer": "Audi",
+    "model": "A6",
+    "production_year": 2003
+  },
+  {
+    "plate_number": "BWB-940",
+    "manufacturer": "BMW",
+    "model": "545",
+    "production_year": 2004
+  },
+  {
+    "plate_number": "MKY-536",
+    "manufacturer": "Mercedes-Benz",
+    "model": "CLS-Class",
+    "production_year": 2008
+  },
+  {
+    "plate_number": "KOC-743",
+    "manufacturer": "Mercedes-Benz",
+    "model": "500SEC",
+    "production_year": 1993
+  },
+  {
+    "plate_number": "CER-105",
+    "manufacturer": "Mercedes-Benz",
+    "model": "S-Class",
+    "production_year": 2003
+  },
+  {
+    "plate_number": "ERX-835",
+    "manufacturer": "Mazda",
+    "model": "B-Series Plus",
+    "production_year": 1996
+  },
+  {
+    "plate_number": "CXU-823",
+    "manufacturer": "Chevrolet",
+    "model": "Monte Carlo",
+    "production_year": 1997
+  },
+  {
+    "plate_number": "IFL-514",
+    "manufacturer": "Volvo",
+    "model": "240",
+    "production_year": 1992
+  },
+  {
+    "plate_number": "YOU-114",
+    "manufacturer": "BMW",
+    "model": "X5",
+    "production_year": 2010
+  },
+  {
+    "plate_number": "QOQ-847",
+    "manufacturer": "Scion",
+    "model": "xB",
+    "production_year": 2004
+  },
+  {
+    "plate_number": "HLK-848",
+    "manufacturer": "Dodge",
+    "model": "Ram Wagon B150",
+    "production_year": 1992
+  },
+  {
+    "plate_number": "PCN-983",
+    "manufacturer": "Lamborghini",
+    "model": "Murciélago",
+    "production_year": 2003
+  },
+  {
+    "plate_number": "RXX-456",
+    "manufacturer": "Nissan",
+    "model": "Quest",
+    "production_year": 2007
+  },
+  {
+    "plate_number": "WRG-293",
+    "manufacturer": "Ferrari",
+    "model": "612 Scaglietti",
+    "production_year": 2010
+  },
+  {
+    "plate_number": "ZAT-888",
+    "manufacturer": "Pontiac",
+    "model": "Bonneville",
+    "production_year": 1992
+  },
+  {
+    "plate_number": "TXZ-947",
+    "manufacturer": "Ford",
+    "model": "F250",
+    "production_year": 2002
+  },
+  {
+    "plate_number": "KZU-673",
+    "manufacturer": "Mitsubishi",
+    "model": "Expo",
+    "production_year": 1995
+  },
+  {
+    "plate_number": "XDN-168",
+    "manufacturer": "Chevrolet",
+    "model": "Corvette",
+    "production_year": 1956
+  },
+  {
+    "plate_number": "KCD-555",
+    "manufacturer": "Oldsmobile",
+    "model": "Bravada",
+    "production_year": 1994
+  },
+  {
+    "plate_number": "YNO-960",
+    "manufacturer": "Mitsubishi",
+    "model": "Truck",
+    "production_year": 1988
+  },
+  {
+    "plate_number": "VUU-756",
+    "manufacturer": "Dodge",
+    "model": "Ram 1500",
+    "production_year": 2000
+  },
+  {
+    "plate_number": "GNF-507",
+    "manufacturer": "Pontiac",
+    "model": "G5",
+    "production_year": 2009
+  },
+  {
+    "plate_number": "UID-583",
+    "manufacturer": "Audi",
+    "model": "Q5",
+    "production_year": 2011
+  },
+  {
+    "plate_number": "NFP-722",
+    "manufacturer": "Infiniti",
+    "model": "M",
+    "production_year": 2009
+  },
+  {
+    "plate_number": "RAU-146",
+    "manufacturer": "Mercedes-Benz",
+    "model": "S-Class",
+    "production_year": 1997
+  },
+  {
+    "plate_number": "ODG-194",
+    "manufacturer": "Lexus",
+    "model": "ES",
+    "production_year": 1994
+  },
+  {
+    "plate_number": "ALZ-090",
+    "manufacturer": "Ford",
+    "model": "Club Wagon",
+    "production_year": 1993
+  },
+  {
+    "plate_number": "FEP-471",
+    "manufacturer": "Lincoln",
+    "model": "MKT",
+    "production_year": 2011
+  },
+  {
+    "plate_number": "MAR-333",
+    "manufacturer": "Toyota",
+    "model": "Sienna",
+    "production_year": 2007
+  },
+  {
+    "plate_number": "QOL-836",
+    "manufacturer": "Toyota",
+    "model": "Tacoma",
+    "production_year": 2003
+  },
+  {
+    "plate_number": "UFB-969",
+    "manufacturer": "Jeep",
+    "model": "Compass",
+    "production_year": 2011
+  },
+  {
+    "plate_number": "VDH-220",
+    "manufacturer": "Mercedes-Benz",
+    "model": "S-Class",
+    "production_year": 1986
+  },
+  {
+    "plate_number": "YAY-802",
+    "manufacturer": "BMW",
+    "model": "5 Series",
+    "production_year": 2002
+  },
+  {
+    "plate_number": "SNN-743",
+    "manufacturer": "Mercedes-Benz",
+    "model": "CL-Class",
+    "production_year": 2001
+  },
+  {
+    "plate_number": "UNQ-852",
+    "manufacturer": "Mercury",
+    "model": "Capri",
+    "production_year": 1993
+  },
+  {
+    "plate_number": "TXT-170",
+    "manufacturer": "Nissan",
+    "model": "Sentra",
+    "production_year": 2004
+  },
+  {
+    "plate_number": "TKT-944",
+    "manufacturer": "Plymouth",
+    "model": "Prowler",
+    "production_year": 2000
+  },
+  {
+    "plate_number": "CAD-953",
+    "manufacturer": "Isuzu",
+    "model": "Oasis",
+    "production_year": 1997
+  },
+  {
+    "plate_number": "PIJ-675",
+    "manufacturer": "Eagle",
+    "model": "Talon",
+    "production_year": 1990
+  },
+  {
+    "plate_number": "RUB-947",
+    "manufacturer": "Land Rover",
+    "model": "Discovery Series II",
+    "production_year": 2001
+  },
+  {
+    "plate_number": "VMB-350",
+    "manufacturer": "Infiniti",
+    "model": "J",
+    "production_year": 1994
+  },
+  {
+    "plate_number": "EHO-052",
+    "manufacturer": "Volvo",
+    "model": "XC90",
+    "production_year": 2008
+  },
+  {
+    "plate_number": "SIM-889",
+    "manufacturer": "Acura",
+    "model": "CL",
+    "production_year": 1997
+  },
+  {
+    "plate_number": "WTO-469",
+    "manufacturer": "Pontiac",
+    "model": "Grand Prix",
+    "production_year": 1981
+  },
+  {
+    "plate_number": "WFX-710",
+    "manufacturer": "Mercedes-Benz",
+    "model": "S-Class",
+    "production_year": 1989
+  },
+  {
+    "plate_number": "ROE-345",
+    "manufacturer": "Mazda",
+    "model": "Mazdaspeed 3",
+    "production_year": 2008
+  },
+  {
+    "plate_number": "NQS-641",
+    "manufacturer": "Subaru",
+    "model": "Baja",
+    "production_year": 2004
+  },
+  {
+    "plate_number": "AMO-879",
+    "manufacturer": "Porsche",
+    "model": "911",
+    "production_year": 1988
+  },
+  {
+    "plate_number": "BGR-037",
+    "manufacturer": "Mitsubishi",
+    "model": "Outlander Sport",
+    "production_year": 2011
+  },
+  {
+    "plate_number": "GFJ-890",
+    "manufacturer": "Hyundai",
+    "model": "Azera",
+    "production_year": 2009
+  },
+  {
+    "plate_number": "MOS-641",
+    "manufacturer": "BMW",
+    "model": "Z3",
+    "production_year": 2001
+  },
+  {
+    "plate_number": "JRL-943",
+    "manufacturer": "Toyota",
+    "model": "Tacoma",
+    "production_year": 2011
+  },
+  {
+    "plate_number": "UVN-855",
+    "manufacturer": "Mitsubishi",
+    "model": "3000GT",
+    "production_year": 1993
+  },
+  {
+    "plate_number": "XGW-433",
+    "manufacturer": "Infiniti",
+    "model": "M",
+    "production_year": 2003
+  },
+  {
+    "plate_number": "HNB-278",
+    "manufacturer": "Mazda",
+    "model": "MPV",
+    "production_year": 1991
+  },
+  {
+    "plate_number": "TOX-761",
+    "manufacturer": "Toyota",
+    "model": "Sienna",
+    "production_year": 2001
+  },
+  {
+    "plate_number": "LSW-224",
+    "manufacturer": "Jaguar",
+    "model": "S-Type",
+    "production_year": 2000
+  },
+  {
+    "plate_number": "XUA-784",
+    "manufacturer": "Mazda",
+    "model": "B-Series",
+    "production_year": 1996
+  },
+  {
+    "plate_number": "KEL-220",
+    "manufacturer": "Buick",
+    "model": "LeSabre",
+    "production_year": 2001
+  },
+  {
+    "plate_number": "BWR-639",
+    "manufacturer": "Mercury",
+    "model": "Grand Marquis",
+    "production_year": 1989
+  },
+  {
+    "plate_number": "MTL-938",
+    "manufacturer": "GMC",
+    "model": "Suburban 1500",
+    "production_year": 1995
+  }
+]

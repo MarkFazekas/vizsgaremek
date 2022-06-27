@@ -1,0 +1,893 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Mini RoadRecord API
+  description: Reference documentation for all resource descriptions, endpoints and methods, parameters, sample requests, errors, and sample responses and schemas available to the Mini RoadRecord API.
+servers:
+  - url: http://localhost:3000
+  - url: http://localhost:8000
+paths:
+  /users:
+    get:
+      description: Returns a list of users
+      security:
+        - bearerAuth: [ ]
+      tags:
+        - Users
+      responses:
+        '200':
+          description: List of users returned successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      description: Creates a new user
+      security:
+        - bearerAuth: [ ]
+      tags:
+        - Users
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '201':
+          description: User has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '400':
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /users/{_id}:
+    get:
+      description: Get a user
+      security:
+        - bearerAuth: [ ]
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Returns a user
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/User'
+        '404':
+          description: User with this ID is not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    patch:
+      description: Updates a user
+      security:
+        - bearerAuth: [ ]
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '200':
+          description: User has been updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '400':
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      description: Deletes a user
+      security:
+        - bearerAuth: [ ]
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: User has been deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                example: { }
+        '404':
+          description: User with this ID is not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /vehicles:
+    get:
+      description: Returns a list of Vehicles
+      security:
+        - bearerAuth: []
+      tags:
+        - Vehicles
+      responses:
+        '200':
+          description: List of Vehicles returned successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Vehicle'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      description: Creates a new Vehicle
+      security:
+        - bearerAuth: []
+      tags:
+        - Vehicles
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Vehicle'
+      responses:
+        '201':
+          description: Vehicle has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Vehicle'
+        '400':
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /vehicles/{_id}:
+    get:
+      description: Get a Vehicle
+      security:
+        - bearerAuth: []
+      tags:
+        - Vehicles
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Returns a Vehicle
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/Vehicle'
+        '404':
+          description: Vehicle with this ID is not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    patch:
+      description: Updates a Vehicle
+      security:
+        - bearerAuth: []
+      tags:
+        - Vehicles
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Vehicle'
+      responses:
+        '200':
+          description: Vehicle has been updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Vehicle'
+        '400':
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      description: Deletes a Vehicle
+      security:
+        - bearerAuth: []
+      tags:
+        - Vehicles
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Vehicle has been deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                example: {}
+        '404':
+          description: Vehicle with this ID is not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /partners:
+    get:
+      description: Returns a list of Partners
+      security:
+        - bearerAuth: []
+      tags:
+        - Partners
+      responses:
+        '200':
+          description: List of Partners returned successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Partner'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      description: Creates a new Partner
+      security:
+        - bearerAuth: []
+      tags:
+        - Partners
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Partner'
+      responses:
+        '201':
+          description: Partner has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partner'
+        '400':
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /partners/{_id}:
+    get:
+      description: Get a Partner
+      security:
+        - bearerAuth: []
+      tags:
+        - Partners
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Returns a Partner
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/Partner'
+        '404':
+          description: Partner with this ID is not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    patch:
+      description: Updates a Partner
+      security:
+        - bearerAuth: []
+      tags:
+        - Partners
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Partner'
+      responses:
+        '200':
+          description: Partner has been updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partner'
+        '400':
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      description: Deletes a Partner
+      security:
+        - bearerAuth: []
+      tags:
+        - Partners
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Partner has been deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                example: {}
+        '404':
+          description: Partner with this ID is not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /trip-reasons:
+    get:
+      description: Returns a list of Trip Reasons
+      security:
+        - bearerAuth: []
+      tags:
+        - Trip Reasons
+      responses:
+        '200':
+          description: List of Trip Reasons returned successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TripReason'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      description: Creates a new Trip Reason
+      security:
+        - bearerAuth: []
+      tags:
+        - Trip Reasons
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TripReason'
+      responses:
+        '201':
+          description: Trip Reason has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TripReason'
+        '400':
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /trip-reasons/{_id}:
+    get:
+      description: Get a Trip Reason
+      security:
+        - bearerAuth: []
+      tags:
+        - Trip Reasons
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Returns a Trip Reason
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/TripReason'
+        '404':
+          description: Trip Reason with this ID is not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    patch:
+      description: Updates a Trip Reason
+      security:
+        - bearerAuth: []
+      tags:
+        - Trip Reasons
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TripReason'
+      responses:
+        '200':
+          description: Trip Reason has been updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TripReason'
+        '400':
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      description: Deletes a Trip Reason
+      security:
+        - bearerAuth: []
+      tags:
+        - Trip Reasons
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Trip Reason has been deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                example: {}
+        '404':
+          description: Trip Reason with this ID is not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /destinations:
+    get:
+      description: Returns a list of Destinations
+      security:
+        - bearerAuth: []
+      tags:
+        - Destinations
+      responses:
+        '200':
+          description: List of Destinations returned successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Destination'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      description: Creates a new Destination
+      security:
+        - bearerAuth: []
+      tags:
+        - Destinations
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Destination'
+      responses:
+        '201':
+          description: Destination has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Destination'
+        '400':
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /destinations/{_id}:
+    get:
+      description: Get a Destination
+      security:
+        - bearerAuth: []
+      tags:
+        - Destinations
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Returns a Destination
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/Destination'
+        '404':
+          description: Destination with this ID is not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    patch:
+      description: Updates a Destination
+      security:
+        - bearerAuth: []
+      tags:
+        - Destinations
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Destination'
+      responses:
+        '200':
+          description: Destination has been updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Destination'
+        '400':
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      description: Deletes a Destination
+      security:
+        - bearerAuth: []
+      tags:
+        - Destinations
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Destination has been deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                example: {}
+        '404':
+          description: Destination with this ID is not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    User:
+      type: object
+      required:
+        - email
+      properties:
+        first_name:
+          type: string
+        last_name:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        role:
+          type: number
+    Vehicle:
+      type: object
+      required:
+        - plate_number
+        - manufacturer
+        - model
+        - production_year
+      properties:
+        plate_number:
+          type: string
+        manufacturer:
+          type: string
+        model:
+          type: string
+        production_year:
+          type: number
+    Partner:
+      type: object
+      required:
+        - country_code
+        - city
+        - street
+        - house_number
+      properties:
+        country_code:
+          type: string
+        state:
+          type: string
+        postcode:
+          type: string
+        city:
+          type: string
+        street:
+          type: string
+        house_number:
+          type: string
+    TripReason:
+      type: object
+      required:
+        - trip_reason
+        - trip_type
+      properties:
+        trip_reason:
+          type: string
+        trip_type:
+          type: string
+    Destination:
+      type: object
+      required:
+        - date
+        - vehicle
+        - from_partner
+        - to_partner
+        - trip_type
+        - distance
+      properties:
+        date:
+          type: string
+        vehicle:
+          type: object
+          $ref: '#/components/schemas/Vehicle'
+        from_partner:
+          type: object
+          $ref: '#/components/schemas/Partner'
+        to_partner:
+          type: object
+          $ref: '#/components/schemas/Partner'
+        trip_type:
+          type: object
+          $ref: '#/components/schemas/TripReason'
+        distance:
+          type: number
+    Error:
+      type: object
+      required:
+        - message
+        - has_error
+      properties:
+        message:
+          type: string
+        has_error:
+          type: boolean

@@ -1,0 +1,558 @@
+[
+  {
+    "trip_reason": "Airport",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Amazon",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Assistant",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Banking",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Baseball",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "BOff",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Break",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "BSWA",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Buisness",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Bunko",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Business",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Car wash",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Car Wash",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Charity",
+    "trip_type": "CHARITY"
+  },
+  {
+    "trip_reason": "Church",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Cinema",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Cleanbnb",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Cleaning",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Client",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Closing",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Coaching",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Commute",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Courier",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Court",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Cutting",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Day job",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Delivery",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Dentist",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "DENTIST",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Door dash",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Doordash",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "DoorDash",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Driving",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Erie job",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Errand",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Errands",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Estimate",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Exams",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Friend",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Fuel",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Gas",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Gig",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Golf",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Groceries",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "GROCERIES",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Gym",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Haircut",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Hiking",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Hobby",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Hom",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "HOM",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Home",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Hospital",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "House",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Hpme",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Inspect",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Inventory",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Job",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Jobsite",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Job Walk",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Kickball",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Laundry",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Leisure",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Listing",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Loading",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Lodging",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "LSS",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Lunch",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Mail",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Marketing",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Massage",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Meat drop",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Medical",
+    "trip_type": "MEDICAL"
+  },
+  {
+    "trip_reason": "Meeting",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Minisr",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Minister",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Ministry",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "MINSTR",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Misntry",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "MoM",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Moms",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Movies",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Moving",
+    "trip_type": "MOVING"
+  },
+  {
+    "trip_reason": "Nails",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Nothing",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Off",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "OFF",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Offerup",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Offi",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Office",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Painting",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Parents",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Parts Del",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "PC Repair",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Personal",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Pick up",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "PICKUP",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "P.o. box",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Prayer",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Prch",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Preach",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Preaching",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Private",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Rehearsal",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Resupply",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "REV",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "REVIV",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Revival",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Rideshare",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "RideShare",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "School",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Service",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Shipping",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Shipt",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Shop",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "SHOP",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Shopping",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Show home",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Showing",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Sister",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Sourcing",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Sport",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "Start Up",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Storage",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Supplies",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Test",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Towing",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Training",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Travel",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Trp for M",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Ubering",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Vet",
+    "trip_type": "PRIVATE"
+  },
+  {
+    "trip_reason": "View home",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Visit",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Visiting",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Wor",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Work",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "WORK",
+    "trip_type": "BUSINESS"
+  },
+  {
+    "trip_reason": "Workshop",
+    "trip_type": "BUSINESS"
+  }
+]
