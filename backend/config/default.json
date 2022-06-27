@@ -1,5 +1,5 @@
 {
     "database": {
-        "host": "mongodb+srv://dbUser:YUHiI3eNBVukesvH@fullstackapivizsgaremek.ukfzl.mongodb.net/?retryWrites=true&w=majority"
+        "host": "mongodb+srv://dbUser:YUHiI3eNBVukesvH@fullstackapivizsgaremek.ukfzl.mongodb.net/prod?retryWrites=true&w=majority"
     }
 }

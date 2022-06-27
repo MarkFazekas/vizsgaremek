@@ -28,4 +28,5 @@ const seedCollection = async (model, fileName) => {
     seedCollection(Vehicle, 'vehicles');
     seedCollection(Partner, 'partners');
     seedCollection(TripReason, 'trip_reasons');
+    seedCollection(Destination, 'destinations');
 })();
