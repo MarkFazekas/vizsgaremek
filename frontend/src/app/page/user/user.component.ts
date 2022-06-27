@@ -26,12 +26,12 @@ export class UserComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onSelectOne(user: User): void {
-    this.router.navigate(['/', 'users', user._id])
+  onSelectOne(entity: User): void {
+    this.router.navigate(['/', 'users', entity._id])
   }
 
-  onDeleteOne(user: User): void {
-    this.userService.delete(user).subscribe(
+  onDeleteOne(entity: User): void {
+    this.userService.delete(entity).subscribe(
       () => this.list$ = this.userService.getAll()
     )
   }

@@ -21,6 +21,10 @@ import { ForbiddenComponent } from './page/forbidden/forbidden.component';
 import { DataTableComponent } from './common/data-table/data-table.component';
 import { MPipePipe } from './pipe/m-pipe.pipe';
 import { UserComponent } from './page/user/user.component';
+import { VehicleComponent } from './page/vehicle/vehicle.component';
+import { DestinationComponent } from './page/destination/destination.component';
+import { PartnerComponent } from './page/partner/partner.component';
+import { TripReasonComponent } from './page/trip-reason/trip-reason.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +41,11 @@ import { UserComponent } from './page/user/user.component';
     ForbiddenComponent,
     DataTableComponent,
     MPipePipe,
-    UserComponent
+    UserComponent,
+    VehicleComponent,
+    DestinationComponent,
+    PartnerComponent,
+    TripReasonComponent
   ],
   imports: [
     FormsModule,

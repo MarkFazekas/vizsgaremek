@@ -1,0 +1,12 @@
+<div class="container-fluid px-4">
+  <h1 class="text-center h2 pt-4">Trip Reasons</h1>
+  <app-data-table
+    [entity]="entity"
+    [tableColumns]="tableColumns"
+    [list$]="list$"
+    (selectOne)="onSelectOne($event)"
+    (deleteOne)="onDeleteOne($event)"
+  >
+  </app-data-table>
+</div>
+

@@ -54,7 +54,7 @@
         <tr
           *ngFor="let row of list$ | async | filter:filterKey:phrase | sorter:columnKey:sortDir |slice:pageSliceStart:pageSliceEnd">
           <td *ngFor="let col of tableColumns">
-            {{ row[col.key] | mPipe: col.pipes:col.pipeArgs }}
+            {{ getDeepVariable(row, col.key) | mPipe: col.pipes:col.pipeArgs }}
           </td>
           <td>
             <div class="btn-group">

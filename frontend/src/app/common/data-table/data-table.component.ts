@@ -92,4 +92,13 @@ export class DataTableComponent<T extends {[prop: string]: any}> implements OnIn
     this.sortDir = this.sortDir * (-1);
   }
 
+  getDeepVariable(object: T, key: string): any{
+    let currentObject = object
+    const objectSteps = key.split(".");
+    for(let keyStep of objectSteps){
+      currentObject = currentObject[keyStep];
+    }
+    return currentObject;
+  }
+
 }
