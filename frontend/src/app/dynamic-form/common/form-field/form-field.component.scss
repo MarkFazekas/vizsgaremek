@@ -1,0 +1,18 @@
+@use '../../../../assets/modules/colors' as *;
+
+.error-message {
+  font-style: italic;
+  font-size: 0.8em;
+  color: $card-button;
+  margin-top: 1rem;
+  animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

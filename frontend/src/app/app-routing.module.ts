@@ -8,6 +8,11 @@ import {TripReasonComponent} from "./page/trip-reason/trip-reason.component";
 import {PartnerComponent} from "./page/partner/partner.component";
 import {VehicleComponent} from "./page/vehicle/vehicle.component";
 import {DestinationComponent} from "./page/destination/destination.component";
+import {UserEditorComponent} from "./page/user-editor/user-editor.component";
+import {VehicleEditorComponent} from "./page/vehicle-editor/vehicle-editor.component";
+import {TripReasonEditorComponent} from "./page/trip-reason-editor/trip-reason-editor.component";
+import {PartnerEditorComponent} from "./page/partner-editor/partner-editor.component";
+import {DestinationEditorComponent} from "./page/destination-editor/destination-editor.component";
 
 const routes: Routes = [
   {
@@ -45,6 +50,26 @@ const routes: Routes = [
   {
     path: 'destinations',
     component: DestinationComponent,
+  },
+  {
+    path: 'users/:id',
+    component: UserEditorComponent,
+  },
+  {
+    path: 'vehicles/:id',
+    component: VehicleEditorComponent,
+  },
+  {
+    path: 'trip-reasons/:id',
+    component: TripReasonEditorComponent,
+  },
+  {
+    path: 'partners/:id',
+    component: PartnerEditorComponent,
+  },
+  {
+    path: 'destinations/:id',
+    component: DestinationEditorComponent,
   },
   {
     path: 'forbidden',

@@ -19,12 +19,17 @@ import { FilterAllPipe } from './pipe/filter-all.pipe';
 import { LimitPipe } from './pipe/limit.pipe';
 import { ForbiddenComponent } from './page/forbidden/forbidden.component';
 import { DataTableComponent } from './common/data-table/data-table.component';
-import { MPipePipe } from './pipe/m-pipe.pipe';
 import { UserComponent } from './page/user/user.component';
 import { VehicleComponent } from './page/vehicle/vehicle.component';
 import { DestinationComponent } from './page/destination/destination.component';
 import { PartnerComponent } from './page/partner/partner.component';
 import { TripReasonComponent } from './page/trip-reason/trip-reason.component';
+import { TripReasonEditorComponent } from './page/trip-reason-editor/trip-reason-editor.component';
+import { PartnerEditorComponent } from './page/partner-editor/partner-editor.component';
+import { DestinationEditorComponent } from './page/destination-editor/destination-editor.component';
+import { VehicleEditorComponent } from './page/vehicle-editor/vehicle-editor.component';
+import { UserEditorComponent } from './page/user-editor/user-editor.component';
+import {DynamicFormModule} from "./dynamic-form/dynamic-form.module";
 
 @NgModule({
   declarations: [
@@ -40,12 +45,16 @@ import { TripReasonComponent } from './page/trip-reason/trip-reason.component';
     LimitPipe,
     ForbiddenComponent,
     DataTableComponent,
-    MPipePipe,
     UserComponent,
     VehicleComponent,
     DestinationComponent,
     PartnerComponent,
-    TripReasonComponent
+    TripReasonComponent,
+    TripReasonEditorComponent,
+    PartnerEditorComponent,
+    DestinationEditorComponent,
+    VehicleEditorComponent,
+    UserEditorComponent
   ],
   imports: [
     FormsModule,
@@ -53,7 +62,8 @@ import { TripReasonComponent } from './page/trip-reason/trip-reason.component';
     AppRoutingModule,
     ReactiveFormsModule, //
     HttpClientModule, //
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DynamicFormModule
   ],
   providers: [
     {

@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-// import { INgxTableColumn } from '../data-table/ngx-data-table/ngx-data-table.component';
 
 export interface IMenuItem {
   link: string;
@@ -11,8 +10,6 @@ export interface ITableColumn {
   title: string;
   key: string;
   hidden?: boolean;
-  pipes?: any[];
-  pipeArgs?: any[][];
 }
 
 @Injectable({

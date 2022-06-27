@@ -1,0 +1,12 @@
+<form (ngSubmit)="onSubmit()" [formGroup]="formGroup">
+  <app-form-field
+    *ngFor="let field of fieldList"
+    [formGroup]="formGroup"
+    [field]="field"
+  ></app-form-field>
+  <div class="text-center">
+    <button type="submit" [disabled]="formGroup.invalid" class="btn btn-primary btn-block mt-5 mt-3">
+      Send
+    </button>
+  </div>
+</form>
